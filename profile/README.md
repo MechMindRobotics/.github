@@ -1,6 +1,6 @@
 # Welcome to Mech-Mind's GitHub page :tada:
 
-![banner](https://github.com/MechMindRobotics/.github/blob/main/profile/banner.jpg)
+![banner](https://docs.mech-mind.net/download/github/banner.jpg)
 
 Mech-Mind is an industry-leading company focusing on industrial 3D cameras and AI-powered software for intelligent robotics.
 By combining 3D vision with AI technology, Mech-Mind brings automation to the next level and empowers partners and system integrators to manage the most challenging automation tasks, including bin picking, depalletizing & palletizing, picking & placing, assembly, and inspection.
