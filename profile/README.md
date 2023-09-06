@@ -49,7 +49,7 @@ The following samples are provided:
 
 As a secondary development software kit specifically designed for Mech-DLK, Mech-DLK SDK aims to help you easily implement deep learning inference in the software systems. With Mech-DLK SDK, you can rapidly deploy deep learning models and flexibly integrate deep learning functionality into your own applications without relying on Mech-Vision. Currently, development in C language is supported. 
 
-You can apply Mech-DLK SDK to implement inference with models exported from Mech-DLK (version 2.4.2 or above).
+You can apply Mech-DLK SDK to implement inference for training models of Mech-DLK (version 2.4.2 or above).
 
 ### Download Mech-DLK SDK
 
