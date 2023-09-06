@@ -27,7 +27,7 @@ The following samples are provided:
 
 - [**C++ samples**](https://github.com/MechMindRobotics/mecheye_cpp_samples)
 - [**C# samples**](https://github.com/MechMindRobotics/mecheye_csharp_samples)
-- [**Python samples**](https://github.com/MechMindRobotics/mecheye_python_samples)"
+- [**Python samples**](https://github.com/MechMindRobotics/mecheye_python_samples)
 
 ### ROS Interfaces of Mech-Eye Industrial 3D Camera
 
