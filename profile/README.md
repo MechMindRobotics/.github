@@ -7,7 +7,6 @@ By combining 3D vision with AI technology, Mech-Mind brings automation to the ne
 
 Mech-Mind products are developed for easy integration with other systems. This page provides resources that can aid you in achieving such integration.
 
-**Contents**
 - [Resources for Mech-Eye Industrial 3D Camera](#resources-for-mech-eye-industrial-3d-camera)
 - [Resources for Mech-DLK SDK](#resources-for-mech-dlk-sdk)
 
@@ -61,5 +60,8 @@ The following samples are provided:
 
 - [**C samples**](https://github.com/MechMindRobotics/Docs_DLK_SDK/tree/main/dlk-sdk-manual_en/modules/sampleshttps://github.com/MechMindRobotics/mecheye_cpp_samples)
 
+### Download Third-Party Libraries
+
+You can download the third-party libraries from [Mech-Mind Download Center](https://downloads.mech-mind.com/?tab=tab-dlk-sdk). 
 
 
