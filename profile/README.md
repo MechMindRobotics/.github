@@ -5,37 +5,61 @@
 Mech-Mind is an industry-leading company focusing on industrial 3D cameras and AI-powered software for intelligent robotics.
 By combining 3D vision with AI technology, Mech-Mind brings automation to the next level and empowers partners and system integrators to manage the most challenging automation tasks, including bin picking, depalletizing & palletizing, picking & placing, assembly, and inspection.
 
-Mech-Mind products are developed for easy integration with other systems, and this page provides you with resources that can aid you in achieving such integration.
+Mech-Mind products are developed for easy integration with other systems. This page provides resources that can aid you in achieving such integration.
+
+**Contents**
+- [Resources for Mech-Eye Industrial 3D Camera](#resources-for-mech-eye-industrial-3d-camera)
+- [Resources for Mech-DLK SDK](#resources-for-mech-dlk-sdk)
 
 ## Resources for Mech-Eye Industrial 3D Camera
 
-Through Mech-Eye SDK, you can control Mech-Eye Industrial 3D Camera to obtain images and point clouds. Available for Windows and Linux, Mech-Eye SDK includes the native application programming interface, Mech-Eye API, and the GenICam interface for the camera. Mech-Eye API is available in C++, C#, and Python, and we also provide ROS 1 and ROS 2 interfaces for communicating with the camera.
+Through Mech-Eye SDK, you can control Mech-Eye Industrial 3D Camera (hereinafter referred to as "the camera") to obtain images and point clouds. Available for Windows and Linux, Mech-Eye SDK includes Mech-Eye API (the native API) and the GenICam interface for the camera. Mech-Eye API is available for C++, C#, and Python. ROS 1 and ROS 2 interfaces are also provided for communicating with the camera. 
 
-Mech-Eye API and the latest GenICam interface are included in Mech-Eye SDK. After installing Mech-Eye SDK, you can download example programs and ROS interfaces from this page.
+After installing Mech-Eye SDK, you can download samples and ROS interfaces.
+
 
 ### Download Mech-Eye SDK
 
-To use Mech-Eye API or the GenICam interface, please install Mech-Eye SDK first. The latest version of Mech-Eye SDK is recommended for more comprehensive functionality and better stability.
+You can download Mech-Eye SDK from [Mech-Mind Download Center](https://downloads.mech-mind.com/?tab=tab-sdk). The latest version of Mech-Eye SDK is recommended for more comprehensive functionality and better stability.
 
-You can download Mech-Eye SDK from [Mech-Mind Online Community](https://downloads.mech-mind.com/?tab=tab-sdk).
+### Samples of Mech-Eye API
 
-### Example Programs of Mech-Eye API
+The following samples are provided:
 
-The following example programs are provided:
+- [**C++ samples**](https://github.com/MechMindRobotics/mecheye_cpp_samples)
+- [**C# samples**](https://github.com/MechMindRobotics/mecheye_csharp_samples)
+- [**Python samples**](https://github.com/MechMindRobotics/mecheye_python_samples)"
 
-- [**C++ example programs**](https://github.com/MechMindRobotics/mecheye_cpp_samples)
-- [**C# example programs**](https://github.com/MechMindRobotics/mecheye_csharp_samples)
-- [**Python example programs**](https://github.com/MechMindRobotics/mecheye_python_samples)
+### ROS Interfaces of Mech-Eye Industrial 3D Camera
 
-### ROS Interfaces for Mech-Eye Industrial 3D Camera
-
-To integrate Mech-Eye Industrial 3D Camera with ROS projects, download and install the ROS interface:
+To integrate the camera with ROS projects, download and install the ROS interface:
 
 - [**ROS 1 interface**](https://github.com/MechMindRobotics/mecheye_ros_interface)
 - [**ROS 2 interface**](https://github.com/MechMindRobotics/mecheye_ros2_interface)
 
-### Example Programs for Third-Party Machine Vision Software
+### Samples of Third-Party Machine Vision Software
 
-Mech-Eye Industrial 3D Camera can also be controlled by third-party machine vision software through Mech-Eye API or the GenICam interface. The following example programs are provided:
+The camera can also be controlled by third-party machine vision software through Mech-Eye API or the GenICam interface. 
 
-- [**HALCON example programs** (GenICam interface)](https://github.com/MechMindRobotics/mecheye_halcon_samples)
+The following samples are provided:
+
+- [**HALCON samples** (GenICam interface)](https://github.com/MechMindRobotics/mecheye_halcon_samples)
+
+## Resources for Mech-DLK SDK
+
+As a secondary development software kit specifically designed for Mech-DLK, Mech-DLK SDK aims to help you easily implement deep learning inference in the software systems. With Mech-DLK SDK, you can rapidly deploy deep learning models and flexibly integrate deep learning functionality into your own applications without relying on Mech-Vision. Currently, development in C language is supported. 
+
+You can apply Mech-DLK SDK to implement inference with models exported from Mech-DLK (version 2.4.2 or above).
+
+### Download Mech-DLK SDK
+
+You can download Mech-DLK SDK from [Mech-Mind Download Center](https://downloads.mech-mind.com/?tab=tab-dlk-sdk).
+
+### Samples of Mech-DLK SDK
+
+The following samples are provided:
+
+- [**C samples**](https://github.com/MechMindRobotics/Docs_DLK_SDK/tree/main/dlk-sdk-manual_en/modules/sampleshttps://github.com/MechMindRobotics/mecheye_cpp_samples)
+
+
+
