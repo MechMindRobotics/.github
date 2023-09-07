@@ -10,7 +10,7 @@ Mech-Mind products are developed for easy integration with other systems. This p
 - [**Resources for Mech-Eye Industrial 3D Camera**](#resources-for-mech-eye-industrial-3d-camera)
 - [**Resources for Mech-DLK SDK**](#resources-for-mech-dlk-sdk)
 
-:blue_book: ## Resources for Mech-Eye Industrial 3D Camera
+## :blue_book: Resources for Mech-Eye Industrial 3D Camera
 
 Through Mech-Eye SDK, you can control Mech-Eye Industrial 3D Camera (hereinafter referred to as "the camera") to obtain images and point clouds. Available for Windows and Linux, Mech-Eye SDK includes Mech-Eye API (the native API) and the GenICam interface for the camera. Mech-Eye API is available for C++, C#, and Python. ROS 1 and ROS 2 interfaces are also provided for communicating with the camera. 
 
@@ -44,7 +44,7 @@ The following samples are provided:
 
 - [**HALCON samples (GenICam interface)**](https://github.com/MechMindRobotics/mecheye_halcon_samples)
 
-:blue_book: ## Resources for Mech-DLK SDK
+## :blue_book: Resources for Mech-DLK SDK
 
 As a secondary development software kit specifically designed for Mech-DLK, Mech-DLK SDK aims to help you easily implement deep learning inference in the software systems. With Mech-DLK SDK, you can rapidly deploy deep learning models and flexibly integrate deep learning functionality into your own applications without relying on Mech-Vision. Currently, development in C language is supported. 
 
