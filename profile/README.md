@@ -54,8 +54,8 @@ You can apply Mech-DLK SDK to implement inference for deep learning models train
 
 Follow steps below to obtain Mech-DLK SDK:
 1. Create a local project folder, for example, *dlk_sdk*.
-2. Clone the [**Mech-DLK SDK repository**](https://github.com/MechMindRobotics/mechdlk_sdk/tree/main) from GitHub to *dlk_sdk*.
-3. Download the third-party libraries (3rd_dll.zip) and resources file (resources.zip) that Mech-DLK SDK relies on to *dlk_sdk* from [**Mech-Mind Download Center**](https://downloads.mech-mind.com.cn/?tab=tab-dlk-sdk).
+2. Clone the [**Mech-DLK SDK repository**](https://github.com/MechMindRobotics/mechdlk_sdk/tree/v2.0.0) from GitHub to *dlk_sdk*.
+3. Download the third-party libraries (3rd_dll.zip) and resources file (resources.zip) that Mech-DLK SDK relies on to *dlk_sdk* from [**Mech-Mind Download Center**](https://downloads.mech-mind.com/?tab=tab-dlk-sdk).
 4. Unzip the downloaded packages to ensure the *dlk_sdk* folder contains the required files: 3rd_dll, mechdlk_sdk, and resources.
 
 ### Samples of Mech-DLK SDK
