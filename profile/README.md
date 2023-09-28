@@ -46,7 +46,7 @@ The following samples are provided:
 
 ## :blue_book: Resources for Mech-DLK SDK
 
-As a secondary development software kit specifically designed for Mech-DLK, Mech-DLK SDK aims to help you easily implement deep learning inference in the software systems. With Mech-DLK SDK, you can rapidly deploy deep learning models and flexibly integrate deep learning functionality into your own applications without relying on Mech-Vision. Currently, development in C language is supported. 
+As a secondary development software kit specifically designed for Mech-DLK, Mech-DLK SDK aims to help you easily implement deep learning inference in the software systems. With Mech-DLK SDK, you can rapidly deploy deep learning models and flexibly integrate deep learning functionality into your own applications without relying on Mech-Vision. Currently, development in C# and C languages is supported. 
 
 You can apply Mech-DLK SDK to implement inference for deep learning models trained by Mech-DLK (version 2.4.2 or above).
 
@@ -54,7 +54,7 @@ You can apply Mech-DLK SDK to implement inference for deep learning models train
 
 Follow steps below to obtain Mech-DLK SDK:
 1. Create a local project folder, for example, *dlk_sdk*.
-2. Clone the [**Mech-DLK SDK repository**](https://github.com/MechMindRobotics/mechdlk_sdk/tree/v2.0.0) from GitHub to *dlk_sdk*.
+2. Clone the [**Mech-DLK SDK repository**](https://github.com/MechMindRobotics/mechdlk_sdk/tree/v2.0.1) from GitHub to *dlk_sdk*.
 3. Download the third-party libraries (3rd_dll.zip) and resources file (resources.zip) that Mech-DLK SDK relies on to *dlk_sdk* from [**Mech-Mind Download Center**](https://downloads.mech-mind.com/?tab=tab-dlk-sdk).
 4. Unzip the downloaded packages to ensure the *dlk_sdk* folder contains the required subfolders: 3rd_dll, mechdlk_sdk, and resources.
 
@@ -62,7 +62,8 @@ Follow steps below to obtain Mech-DLK SDK:
 
 The following samples are provided:
 
-- [**C samples**](https://github.com/MechMindRobotics/mechdlk_sdk/tree/v2.0.0/samples/c)
+- [**C# samples**](https://github.com/MechMindRobotics/mechdlk_sdk/tree/v2.0.1/samples/csharp)
+- [**C samples**](https://github.com/MechMindRobotics/mechdlk_sdk/tree/v2.0.1/samples/c)
 
 
 
