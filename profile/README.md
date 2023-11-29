@@ -7,15 +7,15 @@ By combining 3D vision with AI technology, Mech-Mind brings automation to the ne
 
 Mech-Mind products are developed for easy integration with other systems. This page provides resources that can aid you in achieving such integration.
 
-- [**Resources for Mech-Eye Industrial 3D Camera**](#resources-for-mech-eye-industrial-3d-camera)
-- [**Resources for Mech-DLK SDK**](#resources-for-mech-dlk-sdk)
+- [**Resources for Mech-Eye Industrial 3D Camera**](#blue_book-resources-for-mech-eye-industrial-3d-camera)
+- [**Resources for Mech-Eye 3D Laser Profiler**](#blue_book-resources-for-mech-eye-3d-laser-profiler)
+- [**Resources for Mech-DLK SDK**](#blue_book-resources-for-mech-dlk-sdk)
 
-<h2 id="resources-for-mech-eye-industrial-3d-camera">:blue_book: Resources for Mech-Eye Industrial 3D Camera</h2>
+## :blue_book: Resources for Mech-Eye Industrial 3D Camera
 
-Through Mech-Eye SDK, you can control Mech-Eye Industrial 3D Camera (hereinafter referred to as "the camera") to obtain images and point clouds. Available for Windows and Linux, Mech-Eye SDK includes Mech-Eye API (the native API) and the GenICam interface for the camera. Mech-Eye API is available for C++, C#, and Python. ROS 1 and ROS 2 interfaces are also provided for communicating with the camera. 
+Through Mech-Eye SDK, you can control Mech-Eye Industrial 3D Camera (hereinafter referred to as "the camera") to obtain images and point clouds. Available for Windows and Linux, Mech-Eye SDK includes Mech-Eye API (the native API) and the GenICam interface for the camera. Mech-Eye API is available for C++, C#, and Python. ROS 1 and ROS 2 interfaces are also provided for communicating with the camera.
 
-After installing Mech-Eye SDK, you can download samples and ROS interfaces.
-
+Before downloading the samples and ROS interfaces, please install Mech-Eye SDK first.
 
 ### Download Mech-Eye SDK
 
@@ -25,9 +25,9 @@ You can download Mech-Eye SDK from [**Mech-Mind Download Center**](https://downl
 
 The following samples are provided:
 
-- [**C++ samples**](https://github.com/MechMindRobotics/mecheye_cpp_samples)
-- [**C# samples**](https://github.com/MechMindRobotics/mecheye_csharp_samples)
-- [**Python samples**](https://github.com/MechMindRobotics/mecheye_python_samples)
+- [**C++ samples**](https://github.com/MechMindRobotics/mecheye_cpp_samples/tree/master/area-scan-3d-camera)
+- [**C# samples**](https://github.com/MechMindRobotics/mecheye_csharp_samples/tree/master/area-scan-3d-camera)
+- [**Python samples**](https://github.com/MechMindRobotics/mecheye_python_samples/area-scan-3d-camera)
 
 ### ROS Interfaces of Mech-Eye Industrial 3D Camera
 
@@ -38,13 +38,42 @@ To integrate the camera with ROS projects, download and install the ROS interfac
 
 ### Samples of Third-Party Machine Vision Software
 
-The camera can also be controlled by third-party machine vision software through Mech-Eye API or the GenICam interface. 
+The camera can also be controlled by third-party machine vision software through Mech-Eye API or the GenICam interface.
 
 The following samples are provided:
 
 - [**HALCON samples (GenICam interface)**](https://github.com/MechMindRobotics/mecheye_halcon_samples)
+- [**VisionPro samples (C# Mech-Eye API)**](https://github.com/MechMindRobotics/mecheye_visionpro_samples/tree/master/area-scan-3d-camera)
+- [**LabVIEW samples (C# Mech-Eye API)**](https://github.com/MechMindRobotics/mecheye_labview_samples/tree/master/area-scan-3d-camera)
 
-<h2 id="resources-for-mech-dlk-sdk">:blue_book: Resources for Mech-DLK SDK</h2>
+
+## :blue_book: Resources for Mech-Eye 3D Laser Profiler
+
+Through Mech-Eye SDK, you can control Mech-Eye 3D Laser Profiler (hereinafter referred to as "the laser profiler") to obtain images and point clouds. Available for Windows and Linux, Mech-Eye SDK includes Mech-Eye API (the native API) and the GenICam interface for the laser profiler. Mech-Eye API is available for C++ and C#.
+
+Before downloading the samples, please install Mech-Eye SDK first.
+
+### Download Mech-Eye SDK
+
+You can download Mech-Eye SDK from [**Mech-Mind Download Center**](https://downloads.mech-mind.com/?tab=tab-sdk). The latest version of Mech-Eye SDK is recommended for more comprehensive functionality and better stability.
+
+### Samples of Mech-Eye API
+
+The following samples are provided:
+
+- [**C++ samples**](https://github.com/MechMindRobotics/mecheye_cpp_samples/tree/master/profiler)
+- [**C# samples**](https://github.com/MechMindRobotics/mecheye_csharp_samples/tree/master/profiler)
+
+### Samples of Third-Party Machine Vision Software
+
+The camera can also be controlled by third-party machine vision software through Mech-Eye API or the GenICam interface.
+
+The following samples are provided:
+
+- [**HALCON samples (GenICam interface)**](https://github.com/MechMindRobotics/mecheye_halcon_samples/tree/master/profiler)
+- [**VisionPro samples (C# Mech-Eye API)**](https://github.com/MechMindRobotics/mecheye_visionpro_samples/tree/master/profiler)
+
+## :blue_book: Resources for Mech-DLK SDK
 
 As a software development kit specifically designed for Mech-DLK, Mech-DLK SDK aims to help you easily implement deep learning inference in the software systems. With Mech-DLK SDK, you can rapidly deploy deep learning models and flexibly integrate deep learning functionality into your own applications without relying on Mech-Vision. Currently, development in C#, C++, and C languages is supported. 
 
@@ -53,6 +82,7 @@ You can apply Mech-DLK SDK to implement inference for deep learning models train
 ### Obtain Mech-DLK SDK
 
 Follow steps below to obtain Mech-DLK SDK:
+
 1. Create a local project folder, for example, *dlk_sdk*.
 2. Clone the [**Mech-DLK SDK repository**](https://github.com/MechMindRobotics/mechdlk_sdk/tree/v2.0.2) from GitHub to *dlk_sdk*.
 3. Download the third-party libraries (3rd_dll.zip) and resources file (resources.zip) that Mech-DLK SDK relies on to *dlk_sdk* from [**Mech-Mind Download Center**](https://downloads.mech-mind.com/?tab=tab-dlk-sdk).
@@ -65,7 +95,3 @@ The following samples are provided:
 - [**C# samples**](https://github.com/MechMindRobotics/mechdlk_sdk/tree/v2.0.2/samples/csharp)
 - [**C++ samples**](https://github.com/MechMindRobotics/mechdlk_sdk/tree/v2.0.2/samples/cpp)
 - [**C samples**](https://github.com/MechMindRobotics/mechdlk_sdk/tree/v2.0.2/samples/c)
-
-
-
-
