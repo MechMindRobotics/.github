@@ -15,6 +15,9 @@ Mech-Mind products are developed for easy integration with other systems. This p
 
 Through Mech-Eye SDK, you can control Mech-Eye Industrial 3D Camera (hereinafter referred to as "the camera") to obtain images and point clouds. Available for Windows and Linux, Mech-Eye SDK includes Mech-Eye API (the native API) and the GenICam interface for the camera. Mech-Eye API is available for C++, C#, and Python. ROS 1 and ROS 2 interfaces are also provided for communicating with the camera.
 
+> Note:
+> the ROS interfaces can only be used with Mech-Eye API 2.0.2 and below.
+
 Before downloading the samples and ROS interfaces, please install Mech-Eye SDK first.
 
 ### Download Mech-Eye SDK
@@ -25,11 +28,14 @@ You can download Mech-Eye SDK from [**Mech-Mind Download Center**](https://downl
 
 The following samples are provided:
 
-- [**C++ samples**](https://github.com/MechMindRobotics/mecheye_cpp_samples/tree/master/area-scan-3d-camera)
-- [**C# samples**](https://github.com/MechMindRobotics/mecheye_csharp_samples/tree/master/area-scan-3d-camera)
-- [**Python samples**](https://github.com/MechMindRobotics/mecheye_python_samples/area-scan-3d-camera)
+- [**C++ samples**](https://github.com/MechMindRobotics/mecheye_cpp_samples/tree/master/area_scan_3d_camera)
+- [**C# samples**](https://github.com/MechMindRobotics/mecheye_csharp_samples/tree/master/area_scan_3d_camera)
+- [**Python samples**](https://github.com/MechMindRobotics/mecheye_python_samples/tree/master/area_scan_3d_camera)
 
 ### ROS Interfaces of Mech-Eye Industrial 3D Camera
+
+> Note:
+> the ROS interfaces can only be used with Mech-Eye API 2.0.2 and below.
 
 To integrate the camera with ROS projects, download and install the ROS interface:
 
@@ -42,10 +48,7 @@ The camera can also be controlled by third-party machine vision software through
 
 The following samples are provided:
 
-- [**HALCON samples (GenICam interface)**](https://github.com/MechMindRobotics/mecheye_halcon_samples)
-- [**VisionPro samples (C# Mech-Eye API)**](https://github.com/MechMindRobotics/mecheye_visionpro_samples/tree/master/area-scan-3d-camera)
-- [**LabVIEW samples (C# Mech-Eye API)**](https://github.com/MechMindRobotics/mecheye_labview_samples/tree/master/area-scan-3d-camera)
-
+- [**HALCON samples (GenICam interface)**](https://github.com/MechMindRobotics/mecheye_halcon_samples/tree/main/area_scan_3d_camera)
 
 ## :blue_book: Resources for Mech-Eye 3D Laser Profiler
 
@@ -70,8 +73,7 @@ The camera can also be controlled by third-party machine vision software through
 
 The following samples are provided:
 
-- [**HALCON samples (GenICam interface)**](https://github.com/MechMindRobotics/mecheye_halcon_samples/tree/master/profiler)
-- [**VisionPro samples (C# Mech-Eye API)**](https://github.com/MechMindRobotics/mecheye_visionpro_samples/tree/master/profiler)
+- [**HALCON samples (GenICam interface)**](https://github.com/MechMindRobotics/mecheye_halcon_samples/tree/main/profiler)
 
 ## :blue_book: Resources for Mech-DLK SDK
 
