@@ -49,6 +49,8 @@ The camera can also be controlled by third-party machine vision software through
 The following samples are provided:
 
 - [**HALCON samples (GenICam interface)**](https://github.com/MechMindRobotics/mecheye_halcon_samples/tree/main/area_scan_3d_camera)
+- [**VisionPro samples (C# Mech-Eye API)**](https://github.com/MechMindRobotics/mecheye_visionpro_samples/tree/main/area_scan_3d_camera)
+- [**LabVIEW samples (C# Mech-Eye API)**](https://github.com/MechMindRobotics/mecheye_labview_samples)
 
 ## :blue_book: Resources for Mech-Eye 3D Laser Profiler
 
@@ -74,6 +76,7 @@ The camera can also be controlled by third-party machine vision software through
 The following samples are provided:
 
 - [**HALCON samples (GenICam interface)**](https://github.com/MechMindRobotics/mecheye_halcon_samples/tree/main/profiler)
+- [**VisionPro samples (C# Mech-Eye API)**](https://github.com/MechMindRobotics/mecheye_visionpro_samples/tree/main/profiler)
 
 ## :blue_book: Resources for Mech-DLK SDK
 
