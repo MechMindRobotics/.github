@@ -15,9 +15,6 @@ Mech-Mind products are developed for easy integration with other systems. This p
 
 Through Mech-Eye SDK, you can control Mech-Eye Industrial 3D Camera (hereinafter referred to as "the camera") to obtain images and point clouds. Available for Windows and Linux, Mech-Eye SDK includes Mech-Eye API (the native API) and the GenICam interface for the camera. Mech-Eye API is available for C++, C#, and Python. ROS 1 and ROS 2 interfaces are also provided for communicating with the camera.
 
-> Note:
-> the ROS interfaces can only be used with Mech-Eye API 2.0.2 and below.
-
 Before downloading the samples and ROS interfaces, please install Mech-Eye SDK first.
 
 ### Download Mech-Eye SDK
