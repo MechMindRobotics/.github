@@ -34,9 +34,6 @@ The following samples are provided:
 
 ### ROS Interfaces of Mech-Eye Industrial 3D Camera
 
-> Note:
-> the ROS interfaces can only be used with Mech-Eye API 2.0.2 and below.
-
 To integrate the camera with ROS projects, download and install the ROS interface:
 
 - [**ROS 1 interface**](https://github.com/MechMindRobotics/mecheye_ros_interface)
@@ -80,7 +77,7 @@ The following samples are provided:
 
 ## :blue_book: Resources for Mech-DLK SDK
 
-As a software development kit specifically designed for Mech-DLK, Mech-DLK SDK aims to help you easily implement deep learning inference in the software systems. With Mech-DLK SDK, you can rapidly deploy deep learning models and flexibly integrate deep learning functionality into your own applications without relying on Mech-Vision. Currently, development in C#, C++, and C languages is supported. 
+As a software development kit specifically designed for Mech-DLK, Mech-DLK SDK aims to help you easily implement deep learning inference in the software systems. With Mech-DLK SDK, you can rapidly deploy deep learning models and flexibly integrate deep learning functionality into your own applications without relying on Mech-Vision. Currently, development in C#, C++, and C languages is supported.
 
 You can apply Mech-DLK SDK to implement inference for deep learning models trained by Mech-DLK (version 2.4.2 or above).
 
