@@ -63,9 +63,16 @@ The following samples are provided:
 - [**C++ samples**](https://github.com/MechMindRobotics/mecheye_cpp_samples/tree/master/profiler)
 - [**C# samples**](https://github.com/MechMindRobotics/mecheye_csharp_samples/tree/master/profiler)
 
+### ROS Interfaces of Mech-Eye 3D Laser Profiler
+
+To integrate the laser profiler with ROS projects, download and install the ROS interface:
+
+- [**ROS 1 interface**](https://github.com/MechMindRobotics/mecheye_profiler_ros_interface)
+- [**ROS 2 interface**](https://github.com/MechMindRobotics/mecheye_profiler_ros2_interface)
+
 ### Samples of Third-Party Machine Vision Software
 
-The camera can also be controlled by third-party machine vision software through Mech-Eye API or the GenICam interface.
+The laser profiler can also be controlled by third-party machine vision software through Mech-Eye API or the GenICam interface.
 
 The following samples are provided:
 
