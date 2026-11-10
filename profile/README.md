@@ -95,6 +95,6 @@ You can download Mech-DLK SDK from [**Mech-Mind Download Center**](https://downl
 
 The following samples are provided:
 
-- [**C# samples**](https://github.com/MechMindRobotics/mechdlk_sdk/tree/v3.0.0/samples/csharp)
-- [**C++ samples**](https://github.com/MechMindRobotics/mechdlk_sdk/tree/v3.0.0/samples/cpp)
-- [**Python samples**](https://github.com/MechMindRobotics/mechdlk_sdk/tree/v3.0.0/samples/python)
+- [**C# samples**](https://github.com/MechMindRobotics/mechdlk_sdk/tree/v3.0.0/csharp)
+- [**C++ samples**](https://github.com/MechMindRobotics/mechdlk_sdk/tree/v3.0.0/cpp)
+- [**Python samples**](https://github.com/MechMindRobotics/mechdlk_sdk/tree/v3.0.0/python)
