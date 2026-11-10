@@ -81,25 +81,20 @@ The following samples are provided:
 
 ## :blue_book: Resources for Mech-DLK SDK
 
-As a software development kit specifically designed for Mech-DLK, Mech-DLK SDK aims to help you easily implement deep learning inference in the software systems. With Mech-DLK SDK, you can rapidly deploy deep learning models and flexibly integrate deep learning functionality into your own applications without relying on Mech-Vision. Currently, development in C#, C++, and C languages is supported.
+As a software development kit specifically designed for Mech-DLK, Mech-DLK SDK aims to help you easily implement deep learning inference in your software systems. With Mech-DLK SDK, you can rapidly deploy deep learning models and flexibly integrate deep learning functionality into your own applications without relying on Mech-Vision or Mech-MSR. Currently, C#, C++, and Python are supported.
 
-You can apply Mech-DLK SDK to implement inference for deep learning models trained by Mech-DLK (version 2.4.2 or above).
+You can apply Mech-DLK SDK to perform inference on models exported from Mech-DLK.
 
-> Note: To implement inference for models trained by Mech-DLK 2.6.0 and later, use Mech-DLK SDK 2.1.0 or later. For models trained by Mech-DLK 2.4.2 – 2.5.3, use Mech-DLK SDK earlier than 2.1.0.
+> Note: Mech-DLK SDK 3.0.0 and later can perform inference on models exported from Mech-DLK 2.5.4 and later. Mech-DLK SDK earlier than 3.0.0 can perform inference on models exported from Mech-DLK 2.4.2 – 2.5.4.
 
-### Obtain Mech-DLK SDK
+### Download Mech-DLK SDK
 
-Follow steps below to obtain Mech-DLK SDK:
-
-1. Create a local project folder, for example, *dlk_sdk*.
-2. Clone the [**Mech-DLK SDK repository**](https://github.com/MechMindRobotics/mechdlk_sdk/tree/v2.1.0) from GitHub to *dlk_sdk*.
-3. Download the [third-party libraries (3rd_dll.zip) and resources file (resources.zip)](https://mechmindonedrive-my.sharepoint.com/:f:/g/personal/no-reply_onedrive_mech-mind-robotics_com_cn/EmQzsLUIrPxEixvn80V3rdcBwFOnIr3nWoSww9YXitAefw?e=k1gggB) that Mech-DLK SDK relies on to *dlk_sdk*.
-4. Unzip the downloaded packages to ensure the *dlk_sdk* folder contains the required subfolders: 3rd_dll, mechdlk_sdk, and resources.
+You can download Mech-DLK SDK from [**Mech-Mind Download Center**](https://downloads.mech-mind.com/?tab=tab-dlk-sdk). The latest version of Mech-DLK SDK is recommended for more comprehensive functionality and better stability.
 
 ### Samples of Mech-DLK SDK
 
 The following samples are provided:
 
-- [**C# samples**](https://github.com/MechMindRobotics/mechdlk_sdk/tree/v2.1.0/samples/csharp)
-- [**C++ samples**](https://github.com/MechMindRobotics/mechdlk_sdk/tree/v2.1.0/samples/cpp)
-- [**C samples**](https://github.com/MechMindRobotics/mechdlk_sdk/tree/v2.1.0/samples/c)
+- [**C# samples**](https://github.com/MechMindRobotics/mechdlk_sdk/tree/v3.0.0/samples/csharp)
+- [**C++ samples**](https://github.com/MechMindRobotics/mechdlk_sdk/tree/v3.0.0/samples/cpp)
+- [**Python samples**](https://github.com/MechMindRobotics/mechdlk_sdk/tree/v3.0.0/samples/python)
